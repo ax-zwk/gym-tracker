@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: system-ui, sans-serif;
+}
+
+.gym-card {
+  transition: transform 0.2s;
+}
+
+.gym-card:hover {
+  transform: translateY(-4px);
+}
